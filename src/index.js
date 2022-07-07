@@ -1,19 +1,15 @@
 import {homeDisplay} from "./home";
+import {menuDisplay} from "./menu";
+import {contactDisplay} from "./contact";
 
-//addComponents();
+homeDisplay();
 
 
 document.querySelector(".home").onclick = homeDisplay;
 
-document.querySelector(".menu").onclick = () => {
-    console.log("hello")};
-document.querySelector(".contact").onclick = () => {
-    console.log("hello")};
+document.querySelector(".menu").onclick = menuDisplay;
 
-function checkActive() {
-
-}
-
+document.querySelector(".contact").onclick = contactDisplay;
 
 
 
